@@ -1,20 +1,17 @@
 module MyEnumerable
-    def all?
+  def all?
       elts = []
       list.each { |n| elts << n if yield n }
       puts elts.length == list.length
-    end
-  
-    def any?
+  end
+  def any?
       elts = []
       list.each { |n| elts << n if yield n }
       puts !elts.empty?
-    end
-  
-    def filter
+  end
+  def filter
       elts = []
       list.each { |n| elts << n if yield n }
       puts elts
-    end
   end
-  
+end
