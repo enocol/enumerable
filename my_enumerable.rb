@@ -14,6 +14,6 @@ module MyEnumerable
     def filter
       elts = []
       list.each { |n| elts << n if yield n }
-      p elts
+      puts elts
     end
   end
