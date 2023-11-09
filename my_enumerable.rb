@@ -1,17 +1,21 @@
+# frozen_string_literal: true
+
 module MyEnumerable
   def all?
-      elts = []
-      list.each { |n| elts << n if yield n }
-      puts elts.length == list.length
+    elts = []
+    list.each { |n| elts << n if yield n }
+    puts elts.length == list.length
   end
+
   def any?
-      elts = []
-      list.each { |n| elts << n if yield n }
-      puts !elts.empty?
+    elts = []
+    list.each { |n| elts << n if yield n }
+    puts !elts.empty?
   end
+
   def filter
-      elts = []
-      list.each { |n| elts << n if yield n }
-      puts elts
+    elts = []
+    list.each { |n| elts << n if yield n }
+    puts elts
   end
 end
