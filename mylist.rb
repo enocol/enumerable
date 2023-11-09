@@ -1,5 +1,5 @@
-
 require_relative 'my_enumerable'
+
 class MyList
   include MyEnumerable
 
@@ -16,8 +16,6 @@ class MyList
 end
 
 list = MyList.new(1, 2, 3, 4)
-# puts list.list
-
 list.each { |n| puts n }
 
 # Test #all?
