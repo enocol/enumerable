@@ -19,7 +19,7 @@
 
 # 📖 [Enumerables] <a name="Enumerables"></a>
 
-**[Enumerables]** MyEnumerable a module implementation that implements a subset of the functionality of Enumerable module in Ruby.
+**[Enumerables]** a module implementation that implements a subset of the functionality of the Enumerable module in Ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,9 +33,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[MyList class that inherites from Enumerable module]**
-- **[An Enumerable module]**
-- **[Using The all? any? and filter? methods from the Enumerable class ]**
+- **[MyList class that inherites from MyEnumerable module]**
+- **[MyEnumerable module]**
+- **[Using The all? any? and filter? methods from the MyEnumerable module ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
